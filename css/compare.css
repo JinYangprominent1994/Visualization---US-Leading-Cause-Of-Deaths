@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+}
+
+#canvas-svg {
+  float:center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#donutchart {
+  float:left;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#radarchart {
+  float:right;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#donutchartCompare1 {
+  float:left;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#donutchartCompare2 {
+  float:left;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#radarchartCompare1 {
+  float:left;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#radarchartCompare2 {
+  float:right;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#search {
+  width: 45%;
+}
+
+.tick {
+  opacity: 1;
+  stroke: #FFFAFA;
+}
+
+.axis text{
+  font-size: 15;
+  opacity: 1;
+}
+
+.axis line{
+  stroke: #FFFAFA;
+}
+
+.text {
+  color: #FFFAFA;
+  font-size: 30px;
+}
+
+#comparebutton {
+  font-size: 20px;
+  border-radius: 8px;
+  background-color:black;
+  border: 2px solid white;
+  color: white;
+  width:150px;
+}
+
+
+#comparebutton {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#comparebutton:hover {
+  background-color:#FFFAFA;
+  color: black;
+}

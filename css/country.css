@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+}
+
+.axis text{
+  font-size: 15px;
+  opacity: 1;
+  color: white;
+}
+
+.axis{
+  stroke: #FFFAFA;
+}
+
+.labelName {
+    font-size: 1.1em;
+    font-family: Arial;
+    fill: white;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: #FFFAFA;
+	stroke-width: 2px;
+	fill: none;
+}
+
+#bubbleDiv {
+  float:left;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#piechart {
+  float:right;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#buttonArea {
+  float:left;
+  width: 11%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#buttonArea {
+  border:1px solid white;
+  color:white;
+  font-size: 15px;
+  font-family: Tahoma, Geneva, sans-serif;
+  opacity: 0.8;
+}
+
+#stack {
+  float:right;
+  width: 89%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cancel {
+  font-size: 20px;
+  background-color:black;
+  border-radius: 8px;
+  border: 2px solid white;
+  color: white;
+  width:200px;
+}
+
+#sort {
+  font-size: 20px;
+  background-color:black;
+  border-radius: 8px;
+  border: 2px solid white;
+  color: white;
+  width:200px;
+}
+
+#cancel {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#cancel:hover {
+  background-color:#FFFAFA; /* Green */
+  color: black;
+}
+
+#sort {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#sort:hover {
+  background-color:#FFFAFA; /* Green */
+  color: black;
+}

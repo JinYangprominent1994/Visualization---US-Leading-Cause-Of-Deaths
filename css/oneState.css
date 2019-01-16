@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+}
+#container {
+    height: 100%;
+    width:100%;
+}
+
+#container2 {
+    /*height: 30%;*/
+    width: 100%;
+    padding-left: 1%;
+    display: inline-block;
+}
+
+#container1 .left {
+  position: relative;
+  float: left;
+  width: 40%;
+  height: 750px;
+}
+
+#container1 .right{
+  position: relative;
+  float: right;
+  width: 60%;
+  height: 750px;
+  /*margin-left: 10px;*/
+}
+
+#container1 .top{
+  position: absolute;
+  top: 0;
+}
+
+#container1 .bottom{
+  position: absolute;
+  bottom: 0;
+}
+
+#select {
+  margin-left: 20%;
+  /*margin-bottom: 40%;*/
+}
+
+#canvas {
+  margin-left: 10%;
+}
+
+#liquid {
+  margin-left: 20%;
+}
+
+.tick {
+  opacity: 1;
+  stroke: #FFFAFA;
+}
+
+.axis text{
+  font-size: 15;
+  opacity: 1;
+}
+
+.axis line {
+  stroke: #FFFAFA;
+  /*color: white;*/
+}
+
+.yaxis text{
+  fill: white;
+  font-size: 13px;
+}
